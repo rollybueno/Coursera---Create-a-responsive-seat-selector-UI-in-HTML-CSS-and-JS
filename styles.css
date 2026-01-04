@@ -475,6 +475,7 @@ header h2 {
     .seat-map {
         gap: 5px;
         padding: 10px;
+        overflow: auto;
     }
 
     .seat-row {
