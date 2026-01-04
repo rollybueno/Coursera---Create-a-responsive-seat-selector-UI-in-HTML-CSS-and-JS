@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    overflow: hidden;
-}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
@@ -22,7 +18,6 @@ body {
 .container {
     max-width: 1400px;
     width: 100%;
-    height: 100vh;
     margin: 0;
     background: white;
     border-radius: 0;
@@ -30,7 +25,6 @@ body {
     box-shadow: none;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 header {
